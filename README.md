@@ -7,15 +7,15 @@ In on terminal run a PyBullet GUI server using:
 pip3 install pybullet --upgrade
 python3 -m pybullet_utils.runServer
 ```
-```
-Install Visual Studio 2019 Community Edition in the default location and also a git client such as TortoiseGit.
-(https://tortoisegit.org)
-```
+
+Install Visual Studio 2019 Community Edition in the default location and also a git client such as TortoiseGit,
+(https://tortoisegit.org) and cmake (from https://cmake.org)
 Then run this command to open a x64 terminal, <WINDOWS_KEY>+R, copy this command into the RUN window and hit enter:
 ```
 %comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 ```
-Then compile the C++ code and run the client using:
+Now you should be in a "Visual Studio 2019 Developer Command Prompt v16.9.0"
+Compile the C++ code and run the client using:
 ```
 git clone https://github.com/erwincoumans/pybullet_cpp_sharedmemory_example
 cd pybullet_cpp_sharedmemory_example
