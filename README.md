@@ -4,7 +4,7 @@ A minimal example showing how to use PyBullet from C++ over shared memory.
 
 In on terminal run a PyBullet GUI server using:
 ```
-pip3 install pybullet --upgrade
+pip3 install pybullet==3.1.0
 python3 -m pybullet_utils.runServer
 ```
 
