@@ -8,8 +8,7 @@ pip3 install pybullet==3.1.0
 python3 -m pybullet_utils.runServer
 ```
 
-Install [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/) in the default location and also a git client such as TortoiseGit,
-(https://tortoisegit.org) and cmake (from https://cmake.org)
+Install [Visual Studio 2019 Community Edition](https://visualstudio.microsoft.com/vs/community/) in the default location and also a git client such as [TortoiseGit](https://tortoisegit.org) and [cmake](https://cmake.org).
 Then run this command to open a x64 terminal, <WINDOWS_KEY>+R, copy this command into the RUN window and hit enter:
 ```
 %comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
