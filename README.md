@@ -13,5 +13,5 @@ mkdir build
 cd build
 cmake ..
 cmake --build . --config Release
-Release\pybullet_cpp_example.exe or ./Release/pybullet_cpp_example
+Release\pybullet_cpp_example.exe or ./pybullet_cpp_example
 ```
