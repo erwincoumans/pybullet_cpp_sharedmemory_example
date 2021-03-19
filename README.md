@@ -14,7 +14,7 @@ Then run this command to open a x64 terminal, <WINDOWS_KEY>+R, copy this command
 ```
 %comspec% /k "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\Build\vcvars64.bat"
 ```
-Now you should be in a "Visual Studio 2019 Developer Command Prompt v16.9.0"
+Now you should be in a "Visual Studio 2019 Developer Command Prompt"
 Compile the C++ code and run the client using:
 ```
 git clone https://github.com/erwincoumans/pybullet_cpp_sharedmemory_example
